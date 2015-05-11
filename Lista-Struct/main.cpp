@@ -40,7 +40,7 @@ void preencherProduto(produtos *pr, int numero){
 		
 		printf("\nInforme o preco do produto: ");
 		fflush(stdin);
-		scanf("%d", &pr[i].preco);
+		scanf("%lf", &pr[i].preco); //Para Double %lf
 		
 		printf("\nInforme a quantidade para stock: ");
 		fflush(stdin);
